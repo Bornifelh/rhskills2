@@ -1,0 +1,14 @@
+ion-tab-bar {
+  --ion-tab-bar-background: #251f87;
+  --ion-tab-bar-color: #787373;
+  --ion-tab-bar-color-selected: #fff;
+}
+
+.headerMainPage {
+  position: relative;
+  z-index: 999;
+}
+
+.body-no-scroll {
+  overflow: hidden;
+}

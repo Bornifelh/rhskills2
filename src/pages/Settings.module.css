@@ -1,0 +1,28 @@
+.btnsettings h4 {
+  margin-left: 5px;
+}
+
+.btnsettings {
+  display: flex;
+  justify-content: left;
+}
+
+svg.ionicon {
+  width: 35px;
+  height: 35px;
+}
+
+/* CSS ApplyPage */
+
+.BtnUpload {
+  height: 30px;
+  width: 100%;
+}
+
+.BtnUpload {
+  width: 100%;
+  height: 150px;
+  background-color: #f5f5f5d5;
+  clip-path: circle();
+  margin-top: 30px;
+}

@@ -1,0 +1,11 @@
+<?php
+    $host = $_SERVER['svc-3482219c-a389-4079-b18b-d50662524e8a-shared-dml.aws-virginia-6.svc.singlestore.com'];
+    $port = $_SERVER['3306'];
+    $user = $_SERVER['derly'];
+    $password = $_SERVER['2WlHPdIVMeo5OECq7WDYfBp8EcLr1Lf8'];
+    $db = $_SERVER['database_a1579'];
+    $charset = 'utf8';
+
+    $dsn = "mysql:host{$host};port={$port};dbname={$db};charset={$charset}";
+    $pdo = new PDO($dsn, $user, $password);
+?>

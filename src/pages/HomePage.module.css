@@ -1,0 +1,81 @@
+.contentListJobs {
+  display: block;
+}
+
+.contentItem {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  --ion-safe-area-right: 0;
+}
+
+.item-native {
+  margin: 0;
+  padding: 0;
+}
+
+.logoJob {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.sectionText {
+  line-height: 1.5;
+}
+
+.titreJob {
+  font-size: 22px;
+}
+
+.imagecard {
+  width: 100%;
+  height: auto;
+}
+
+.image {
+  width: 100%;
+  object-fit: contain;
+  height: 200px;
+}
+
+.ionwrap {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rowconseils {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rowbienvenue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rowcategories {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+/* Applications */
+
+.imgapplications {
+  width: 80px;
+}
+
+.btnitemapplications {
+  width: 95%;
+  height: 10px;
+  align-content: center;
+  display: flex;
+  margin: 0 10px 10px 10px;
+}

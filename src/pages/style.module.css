@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("https://db.onlinewebfonts.com/t/9766863346bef0bd561ce3ffe885eba9.eot"); /* IE9 Compat Modes */
+  src: url("https://db.onlinewebfonts.com/t/9766863346bef0bd561ce3ffe885eba9.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("https://db.onlinewebfonts.com/t/9766863346bef0bd561ce3ffe885eba9.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("https://db.onlinewebfonts.com/t/9766863346bef0bd561ce3ffe885eba9.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("https://db.onlinewebfonts.com/t/9766863346bef0bd561ce3ffe885eba9.ttf")
+      format("truetype"); /* Safari, Android, iOS */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contenair {
+  height: auto;
+  overflow: scroll;
+}
+
+.imgcontent {
+  max-width: 100%; /* Assurez que l'image ne dépasse pas son conteneur */
+  padding: auto;
+  display: block; /* Corrige l'alignement */
+  margin: auto; /* Centre l'image si nécessaire */
+}
+
+/* La règle suivante est redondante puisque ".imgcontent" n'a pas d'éléments <img> imbriqués directement */
+/* .imgcontent img {
+    height: 100%;
+    object-fit: cover;
+  } */
+
+.btncontents {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.textprincipal {
+  font-size: 32px;
+  text-align: center;
+  margin: 20px 0; /* Ajoute un peu d'espace autour du texte */
+}
+
+.google,
+.btns {
+  display: flex;
+  justify-content: center; /* Correction de "justify-content: star;" */
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+.icongoogle {
+  width: 40px;
+  margin-right: 10px; /* Ajoute de l'espace entre l'icône et le texte */
+}
+
+.contentconnexion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnlogin {
+  fill: transparent;
+}

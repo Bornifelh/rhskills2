@@ -1,0 +1,7 @@
+{
+  "name": "rh-skills",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

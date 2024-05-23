@@ -1,0 +1,15 @@
+.cardlist {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 20px 15px;
+}
+
+.listnotifications {
+  display: flex;
+  flex-direction: column;
+}
+
+.imglist {
+  width: 100px;
+}
