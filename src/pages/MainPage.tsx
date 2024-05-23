@@ -55,7 +55,7 @@ const MainPage: React.FC = () => {
               </IonTabButton>
               <IonTabButton tab="notifications" href="/notifications">
                 <IonIcon icon={chatbubbles} />
-                <IonLabel>Notifications</IonLabel>
+                <IonLabel>Notification</IonLabel>
               </IonTabButton>
               <IonTabButton tab="profile" href="/profile">
                 <IonIcon icon={person} />

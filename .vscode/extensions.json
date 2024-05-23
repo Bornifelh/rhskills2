@@ -1,5 +1,12 @@
 {
     "recommendations": [
-        "ionic.ionic"
+        "ionic.ionic",
+        "ionic-native",
+        "ionic-native-transitions",
+        "ionic-native-animations",
+        "ionic-native-ionic",
+        "ionic-native-ionic-native",
+        "ionic-native-ionic-native-transitions",
+        "ionic-native-ionic-native-animations"
     ]
 }

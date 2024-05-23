@@ -16,8 +16,10 @@ import {
   IonGrid,
   IonRow,
   IonCol,
+  IonIcon,
 } from "@ionic/react";
 import { useHistory } from "react-router";
+import { logoFacebook, logoGoogle } from "ionicons/icons";
 
 const SeConnecter: React.FC = () => {
   const history = useHistory();
@@ -108,7 +110,6 @@ const SeConnecter: React.FC = () => {
             <IonText>Avez-vous un compte ?</IonText>
             <IonButton
               fill="clear"
-              className={styles.btnlogin}
               onClick={navigateToLogin}
             >
               Créer un compte
@@ -117,10 +118,14 @@ const SeConnecter: React.FC = () => {
           <IonGrid>
             <IonRow>
               <IonCol>
-                <IonButton>Facebook</IonButton>
+                <IonButton>
+                  <IonIcon icon={logoFacebook} />
+                </IonButton>
               </IonCol>
               <IonCol>
-                <IonButton>Google</IonButton>
+                <IonButton>
+                  <IonIcon icon={logoGoogle} />
+                </IonButton>
               </IonCol>
             </IonRow>
           </IonGrid>
